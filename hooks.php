@@ -23,8 +23,7 @@ if (!function_exists('_filter_fw_ext_get_render_ad_listing')) {
 if (!function_exists('_filter_fw_ext_favorite_deals_view')) {
 
     function _filter_fw_ext_favorite_deals_view() {
-        die("okay1");
-        // echo fw_ext_get_render_favorite_deals();
+        echo fw_ext_get_render_favorite_deals();
     }
 
     add_action('render_favorite_deals_view', '_filter_fw_ext_favorite_deals_view', 10);
